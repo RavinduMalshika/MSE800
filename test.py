@@ -9,7 +9,7 @@ for i in range(n):
     b = temp + b
 
 factorial = 1
-for i in range(1, n +1):
+for i in range(1, n + 1):
     factorial = i * factorial
 
 print("\nFactorial: ", factorial)
