@@ -10,6 +10,6 @@ sum = number1 + number2
 # find the product of the 2 numbers
 product = number1 * number2
 
-#display the results
+# display the results
 print("The sum of the numbers is", sum)
 print("The product of the numbers is", product)
