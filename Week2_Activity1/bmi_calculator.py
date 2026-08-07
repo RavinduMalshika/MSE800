@@ -5,6 +5,10 @@ class BmiCalculator:
         bmi = weight / (height ** 2)
         return bmi
 
-BmiCalculator.weight = float(input("Please enter your weight(kg): "))
-BmiCalculator.height = float(input("Please enter your height(cm): "))
-print(f"Your BMI is {BmiCalculator.calculateBmi(BmiCalculator.weight, BmiCalculator.height)}")
+    
+def main():
+    BmiCalculator.weight = float(input("Please enter your weight(kg): "))
+    BmiCalculator.height = float(input("Please enter your height(cm): "))
+    print(f"Your BMI is {BmiCalculator.calculateBmi(BmiCalculator.weight, BmiCalculator.height)}")
+
+main()
