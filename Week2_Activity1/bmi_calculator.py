@@ -5,9 +5,10 @@ class BmiCalculator:
 
     
 def main():
-    BmiCalculator.weight = float(input("Please enter your weight(kg): "))
-    BmiCalculator.height = float(input("Please enter your height(cm): "))
-    print(f"Your BMI is {BmiCalculator.calculateBmi(BmiCalculator.weight, BmiCalculator.height)}")
+    calculator = BmiCalculator()
+    calculator.weight = float(input("Please enter your weight(kg): "))
+    calculator.height = float(input("Please enter your height(cm): "))
+    print(f"Your BMI is {BmiCalculator.calculateBmi(calculator.weight, calculator.height)}")
 
 if __name__ == "__main__":
     main()
