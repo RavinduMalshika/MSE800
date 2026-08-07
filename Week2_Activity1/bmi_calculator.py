@@ -1,6 +1,4 @@
 class BmiCalculator:
-    pass
-
     def calculateBmi(weight, height):
         bmi = weight / (height ** 2)
         return bmi
