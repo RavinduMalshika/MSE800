@@ -23,9 +23,9 @@ def main():
         students.append(student)
         students.sort(key=lambda student: student.age)
         printStudents()
+
         while True:
             choice = input("Do you want to add another student? (y/n): ").lower()
-
             if choice == "y":
                 break
             elif choice == "n":
