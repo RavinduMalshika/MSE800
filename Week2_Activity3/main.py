@@ -7,9 +7,6 @@ class Student:
 
 students = []
 
-def sortStudentByAge():
-    students = students.sort(key=lambda student: student.age)
-
 def printStudents():
     print("Full Name\t Age\t Address\t Student ID")
     for i in students:
