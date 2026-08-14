@@ -11,10 +11,10 @@ y = iris.data.targets
 total_records = len(X)
 print(f"Total number of records: {total_records}")
 
-# Number of unique flower species
+# Number of unique flowers
 total_num_of_flowers = y['class'].nunique()
 print(f"Total number of different flowers: {total_num_of_flowers}")
 
-# Unique species names
+# Names of unique flowers
 names_of_flowers = y['class'].unique()
 print(f"Flower species: {list(names_of_flowers)}")
