@@ -2,6 +2,6 @@ A student can enroll in multiple lectures (or none), a lecture can contain multi
 
 Similarly, allows lecturers to teach multiple subjects/lectures, subjects to be covered in multiple lecture sessions, and lectures to involve assigned instructors.
 
-Lecture entity can have the location or room attribute to sho the venue.
+Lecture entity can have the location or room attribute to show the venue.
 Student and Lecturer entities can have a phone number or contact number attribute.
 
