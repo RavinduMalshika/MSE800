@@ -1,0 +1,7 @@
+A student can enroll in multiple lectures (or none), a lecture can contain multiple enrolled students, and an enrollment record ties back to this relation.
+
+Similarly, allows lecturers to teach multiple subjects/lectures, subjects to be covered in multiple lecture sessions, and lectures to involve assigned instructors.
+
+Lecture entity can have the location or room attribute to sho the venue.
+Student and Lecturer entities can have a phone number or contact number attribute.
+
