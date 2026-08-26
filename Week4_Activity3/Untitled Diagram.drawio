@@ -1,0 +1,97 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="2MJvOYNRIjXyeBO4cTaa">
+    <mxGraphModel dx="1417" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UngP_CTM12X0t0rbt490-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CurrencyManager" vertex="1">
+          <mxGeometry height="140" width="310" x="430" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-2" parent="UngP_CTM12X0t0rbt490-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ db: Databse" vertex="1">
+          <mxGeometry height="26" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-3" parent="UngP_CTM12X0t0rbt490-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-4" parent="UngP_CTM12X0t0rbt490-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+__init__(db: Database)&lt;br/&gt;        +add_currency(code: str, name: str): void&lt;br/&gt;        +set_rate(from_code: str, to_code: str, rate: float): void&lt;br/&gt;        +get_rate(from_code: str, to_code: str): float" vertex="1">
+          <mxGeometry height="80" width="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Database" vertex="1">
+          <mxGeometry height="110" width="160" x="170" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-6" parent="UngP_CTM12X0t0rbt490-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+conn: Connection&amp;nbsp;&lt;div&gt;+cursor: Cursor&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-7" parent="UngP_CTM12X0t0rbt490-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-8" parent="UngP_CTM12X0t0rbt490-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+__init__(db_name: str)&lt;br/&gt;        +create_tables(): void" vertex="1">
+          <mxGeometry height="42" width="160" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CustomerManager" vertex="1">
+          <mxGeometry height="190" width="360" x="405" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-10" parent="UngP_CTM12X0t0rbt490-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ db: Databse" vertex="1">
+          <mxGeometry height="26" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-11" parent="UngP_CTM12X0t0rbt490-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="360" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-12" parent="UngP_CTM12X0t0rbt490-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+__init__(db: Database)&lt;br/&gt;        +add_customer(name: str, email: str): int&lt;br/&gt;        +get_customer_by_id(customer_id: int): tuple&lt;br/&gt;        +get_customer_by_email(email: str): tuple&lt;br/&gt;        +get_all_customers(): list&lt;br/&gt;        +update_customer(customer_id: int, name: str, email: str): bool&lt;br/&gt;        +delete_customer(customer_id: int): bool" vertex="1">
+          <mxGeometry height="130" width="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-21" edge="1" parent="1" source="UngP_CTM12X0t0rbt490-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamond;startFill=0;" target="UngP_CTM12X0t0rbt490-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ExchangeService" vertex="1">
+          <mxGeometry height="170" width="360" x="790" y="233" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-14" parent="UngP_CTM12X0t0rbt490-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+db: Database&lt;br/&gt;        +currency_mgr: CurrencyManager" vertex="1">
+          <mxGeometry height="42" width="360" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-15" parent="UngP_CTM12X0t0rbt490-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="360" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-16" parent="UngP_CTM12X0t0rbt490-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+__init__(db: Database, currency_mgr: CurrencyManager)&lt;br/&gt;        +execute_trade(customer_id: int, from_code: str, to_code: str, amount: float): float&lt;br/&gt;        +get_all_transactions(): list&lt;br/&gt;        +get_transactions_by_customer_id(customer_id: int): list&lt;br/&gt;        +get_transactions_by_customer_email(customer_email: str): list" vertex="1">
+          <mxGeometry height="94" width="360" y="76" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-17" edge="1" parent="1" source="UngP_CTM12X0t0rbt490-4" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.415;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="UngP_CTM12X0t0rbt490-5" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="190" y="200" as="sourcePoint" />
+            <mxPoint x="350" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-19" edge="1" parent="1" source="UngP_CTM12X0t0rbt490-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.996;entryY=0.835;entryDx=0;entryDy=0;entryPerimeter=0;" target="UngP_CTM12X0t0rbt490-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="540" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-22" edge="1" parent="1" source="UngP_CTM12X0t0rbt490-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.001;entryY=0.456;entryDx=0;entryDy=0;entryPerimeter=0;" target="UngP_CTM12X0t0rbt490-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-23" edge="1" parent="1" source="UngP_CTM12X0t0rbt490-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.435;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" target="UngP_CTM12X0t0rbt490-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="850" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-26" edge="1" parent="1" source="UngP_CTM12X0t0rbt490-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.455;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="UngP_CTM12X0t0rbt490-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="705" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="UngP_CTM12X0t0rbt490-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;use&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="910" y="136" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
